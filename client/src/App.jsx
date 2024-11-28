@@ -6,8 +6,8 @@ import InputTodo from "./components/InputTodo";
 import ListTodos from "./components/ListTodos";
 
 function App() {
-  const [todos, setTodos] = useState([]); // Track todos in state
-  const [description, setDescription] = useState(""); // Track description
+  const [todos, setTodos] = useState([]); 
+  const [description, setDescription] = useState(""); 
 
   // Handle form submission for adding new todo
   async function onSubmitForm(event, description) {
